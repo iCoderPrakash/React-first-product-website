@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "poppins", sans-serif;
+}
+
+.logo img {
+    width: 90px;
+    height: 50px;
+}
+
+nav {
+    height: 60px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    gap: 10px;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+button {
+    padding: 10px 15px;
+    background-color: rgb(255, 0, 0);
+    color: white;
+    border: none;
+    border-radius: 30px;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+    margin-left: 40px;
+}
+
+.hero-content {
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+}
+
+.hero-content h1 {
+    font-size: 60px;
+}
+
+.hero-btn button,
+.brand-icon img {
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+.brand-icon img {
+    width: 50px;
+    height: 50px;
+}
+
+.hero-image img {
+    width: 791px;
+    height: 563px;
+    filter: drop-shadow(25px 25px 15px rgb(95, 95, 95));
+}
